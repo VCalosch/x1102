@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+#navlist li {
+  display: inline;
+  padding-right: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.logos{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #F0F0F0;
+  text-align: center;
+}

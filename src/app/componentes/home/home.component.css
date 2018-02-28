@@ -1,0 +1,81 @@
+.fondo{background-color: #F5F5F5; }
+/*WHITE BOX*/
+body {
+    background: #F5F5F5;
+}
+
+.box {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #e5e5e5;
+  margin: 0 0 2em 0;
+  padding: 3em;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+
+ input, select, textarea {
+    color: #777;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 1.65em;
+    letter-spacing: -0.015em;
+}
+.xx{
+  background: #F5F5F5;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 1.65em;
+  letter-spacing: -0.015em;
+}
+
+/*CONTAINER*/
+#main {
+    padding: 4em 0;
+}
+
+
+
+
+
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+/*************************BOX DIVISION*********************/
+      .box.features .features-row:first-child {
+          border-top: 0;
+      }
+
+
+      .box.features .features-row:after {
+          clear: both;
+          content: '';
+          display: block;
+      }
+
+      .box.features .features-row:first-child section {
+          padding-top: 0;
+      }
+
+      .box.features .features-row section:nth-child(2n-1) {
+          padding-left: 0;
+      }
+
+      .box.features .features-row section {
+          float: left;
+          padding: 3em;
+          width: 50%;
+      }
+/*******************************************************************/
