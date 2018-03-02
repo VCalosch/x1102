@@ -1,3 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#contenedor{
+  min-height: 100%;
+}
+
+#principal {
+  overflow: auto;
+  padding-bottom: 100px;
+  height: 2000px;
+}
+
+#final_footer{
+  position: relative;
+  margin-top: -100px;
+  clear: both;
+}
+
+
+
+
+
 body{height: 100%;}
 
 /*Footer*/
