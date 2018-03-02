@@ -1,29 +1,8 @@
-.fondo{background-color: #F5F5F5; }
-/*WHITE BOX*/
-body {
-    background: #F5F5F5;
+body, input, select, textarea {
+    font-size: 11pt;
 }
 
-.box {
-  background: #fff;
-  border-radius: 6px;
-  box-shadow: 0 2px 0 0 #e5e5e5;
-  margin: 0 0 2em 0;
-  padding: 3em;
-}
-
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-article, aside, footer, header, hgroup, main, nav, section {
-    display: block;
-}
-
-
- input, select, textarea {
+body, input, select, textarea {
     color: #777;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16pt;
@@ -31,51 +10,72 @@ article, aside, footer, header, hgroup, main, nav, section {
     line-height: 1.65em;
     letter-spacing: -0.015em;
 }
-.xx{
-  background: #F5F5F5;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16pt;
-  font-weight: 300;
-  line-height: 1.65em;
-  letter-spacing: -0.015em;
+body {
+    background: #f5f5f5;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body {
+    line-height: 1;
 }
 
-/*CONTAINER*/
+#banner {
+    background-attachment: scroll;
+}
+
+#banner {
+    padding: 10em 0 18em 0;
+}
+#banner {
+    background-attachment: scroll,	fixed;
+    background-color: #666;
+    background-image: url(/assets/Home/overlay.png), url(/assets/Home/playas.jpg);
+    background-position: top left,	center center;
+    background-repeat: repeat,	no-repeat;
+    background-size: auto,	cover;
+    color: #fff;
+    padding: 12em 0 20em 0;
+    text-align: center;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body.landing #main {
+    margin-top: -14em;
+}
 #main {
     padding: 4em 0;
 }
 
-
-
-
-
-
-article, aside, footer, header, hgroup, main, nav, section {
-    display: block;
+.container {
+    width: 90%;
 }
-/*************************BOX DIVISION*********************/
-      .box.features .features-row:first-child {
-          border-top: 0;
-      }
+
+.container {
+    width: 60em;
+}
+
+.container {
+    width: 60em;
+}
+.container {
+    width: 60em;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
-      .box.features .features-row:after {
-          clear: both;
-          content: '';
-          display: block;
-      }
-
-      .box.features .features-row:first-child section {
-          padding-top: 0;
-      }
-
-      .box.features .features-row section:nth-child(2n-1) {
-          padding-left: 0;
-      }
-
-      .box.features .features-row section {
-          float: left;
-          padding: 3em;
-          width: 50%;
-      }
-/*******************************************************************/
+section.special, article.special {
+    text-align: center;
+}
+.box {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 0 #e5e5e5;
+    margin: 0 0 2em 0;
+    padding: 3em;
+}

@@ -1,0 +1,215 @@
+<!--<div class="container top-container">
+<div class="card">
+  <div class="card-header text-center">
+    Elige una Playa
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+
+    </blockquote>
+  </div>
+</div>
+</div>-->
+
+<div class="container top-container">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Elige una Playa</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Solicitar una Nueva Playa</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Dar de Alta a un Nuevo Usuario</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+    <div class="card">
+      <div class="card-body">
+
+                  <table class="table table-striped">
+            <tbody>
+              <tr>
+                <th scope="row"></th>
+                <td><img src="assets/Relleno.png" class="rounded-circle"></td>
+                <td><img src="assets/Relleno.png" class="rounded-circle"></td>
+                <td><img src="assets/Relleno.png" class="rounded-circle"></td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td><img src="assets/Relleno.png" class="rounded-circle"></td>
+                <td><img src="assets/Relleno.png" class="rounded-circle"></td>
+                <td><img src="assets/Relleno.png" class="rounded-circle"></td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td><img src="assets/Relleno.png" class="rounded-circle"></td>
+                <td><img src="assets/Relleno.png" class="rounded-circle"></td>
+                <td><img src="assets/Relleno.png" class="rounded-circle"></td>
+              </tr>
+
+            </tbody>
+          </table>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+    <div class="card">
+      <div class="card-body" style="margin-top: 40px; margin-bottom: 40px;">
+        <div class="row">
+          <div class="col"></div>
+
+
+
+        <div class="col-10"><form>
+          <div class="form-row">
+            <div class="col"><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre de la Playa"></div>
+            <div class="col"><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo Electronico"></div>
+          </div>
+
+          <br />
+
+          <div class="form-row">
+            <div class="col"><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Latitud"></div>
+            <div class="col"><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Longitud"></div>
+            <div class="col"><button type="submit" class="btn btn-primary btn-block">Ver en Mapa</button></div>
+          </div>
+
+          <br />
+
+          <div class="form-row">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comentarios"></textarea>
+          </div>
+
+          <!--<div class="col"></div><div class="col"></div><div class="col"></div><div class="col"></div><div class="col"></div>-->
+          <br />
+
+          <div class="form-row">
+            <div class="col"></div>
+            <div class="col-auto"><button type="submit" class="btn btn-primary btn-lg">Enviar Solicitud</button></div>
+            <div class="col"></div>
+          </div>
+        </form></div>
+        <div class="col">
+        </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+    <div class="card">
+      <div class="card-body" style="margin-top: 40px; margin-bottom: 40px;">
+
+        <div class="row">
+          <div class="col"></div>
+
+
+
+        <div class="col-10"><form>
+          <div class="form-row">
+            <div class="col"><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre de Usuario"></div>
+            <div class="col"><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electronico"></div>
+            <div class="col"><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña"></div>
+            <div class="col">
+              <select class="form-control" id="exampleFormControlSelect1">
+                      <option disabled>Rol de Usuario</option>
+                      <option>Encargado de Playa</option>
+                      <option>Socorrista</option>
+              </select></div>
+          </div>
+
+          <br />
+
+          <div class="form-row">
+            <div class="col">
+              <select class="form-control" id="exampleFormControlSelect1">
+                      <option disabled>Sexo</option>
+                      <option>Femenino</option>
+                      <option>Masculino</option>
+                      <option>Otro</option>
+              </select></div>
+            <div class="col"><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Num. de Temporadas como Socorrista"></div>
+            <div class="col">
+              <select class="form-control" id="exampleFormControlSelect2">
+                      <option disabled>Experiencia en</option>
+                      <option>Playas</option>
+                      <option>Piscinas</option>
+                      <option>Playas y Piscinas</option>
+              </select></div>
+          </div>
+
+          <br />
+
+          <div class="form-row">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Haz una breve Descripción"></textarea>
+          </div>
+
+          <br />
+
+          <div class="form-row">
+            <div class="col"><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Horas de Formación"></div>
+            <div class="col">
+              <select class="form-control" id="exampleFormControlSelect1">
+                      <option disabled>Ultima Formación</option>
+                      <option *ngFor="let i of years; ">{{i}}</option>
+
+              </select></div>
+              <div class="col"><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Entidad Formadora"></div>
+          </div>
+
+          <br />
+
+          <div class="form-row">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Descripción sobre Formación"></textarea>
+          </div>
+
+          <br />
+
+          <div class="form-row">
+            <div class="col"><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Codigo"></div>
+            <div class="col"><input type="text" class="form-control" id="formGroupExampleInput" placeholder="Inicio Contrato - Ej: 21/01/2018"></div>
+          </div>
+          <!--<div class="col"></div><div class="col"></div><div class="col"></div><div class="col"></div><div class="col"></div>-->
+          <br />
+
+          <div class="form-row">
+            <div class="col"></div>
+            <div class="col-auto"><button type="submit" class="btn btn-primary btn-lg">Registrar</button></div>
+            <div class="col"></div>
+          </div>
+        </form></div>
+        <div class="col">
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
