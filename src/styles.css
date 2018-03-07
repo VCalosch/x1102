@@ -7,20 +7,16 @@ html, body {
   height: 100%;
 }
 
-#contenedor{
-  min-height: 100%;
+html { height: 100%; }
+body {
+    min-height:100%;
+    position:relative;
+    padding-bottom:[footer-height]
 }
-
-#principal {
-  overflow: auto;
-  padding-bottom: 100px;
-  height: 2000px;
-}
-
-#final_footer{
-  position: relative;
-  margin-top: -100px;
-  clear: both;
+#footer {
+    position: absolute;
+    left: 0 ; right: 0; bottom: 0;
+    height:[footer-height]
 }
 
 
@@ -64,8 +60,3 @@ body{
 }
 
 .top-container{margin-top: 100px;}
-
-#navbar{
-  position: fixed;
-  width: 100%;
-}
