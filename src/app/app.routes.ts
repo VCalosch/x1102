@@ -5,6 +5,8 @@ import { FooterComponent } from './componentes/compartidos/footer/footer.compone
 import { LoginComponent } from './componentes/login/login.component';
 import { CoordinadorComponent } from './componentes/coordinador/coordinador.component';
 import { EscogerPlayaComponent } from './componentes/compartidos/escoger-playa/escoger-playa.component';
+import { EncargadoGeneralComponent } from './componentes/compartidos/encargado-general/encargado-general.component';
+import { SocorristaGeneralComponent } from './componentes/compartidos/socorrista-general/socorrista-general.component';
 
 
 const APP_ROUTES: Routes = [
@@ -12,6 +14,9 @@ const APP_ROUTES: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'coordinador', component: CoordinadorComponent },
   { path: 'escogerPlaya', component: EscogerPlayaComponent },
+  { path: 'encargadoGeneral', component: EncargadoGeneralComponent },
+  { path: 'socorristaGeneral', component: SocorristaGeneralComponent },
+
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 

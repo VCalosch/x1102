@@ -1,0 +1,10 @@
+.EsquemaMapa{
+  width: auto;
+  height: 300px;
+  background-color: grey;
+}
+
+.contenedorLados{
+  margin-left: 40px;
+  margin-right: 40px;
+}

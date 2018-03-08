@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { APP_ROUTING } from './app.routes';
 
+//Servicios
+import { SelectsService } from './servicios/selects.service';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { NavbarComponent } from './componentes/compartidos/navbar/navbar.component';
@@ -10,6 +13,9 @@ import { FooterComponent } from './componentes/compartidos/footer/footer.compone
 import { LoginComponent } from './componentes/login/login.component';
 import { CoordinadorComponent } from './componentes/coordinador/coordinador.component';
 import { EscogerPlayaComponent } from './componentes/compartidos/escoger-playa/escoger-playa.component';
+import { EncargadoGeneralComponent } from './componentes/compartidos/encargado-general/encargado-general.component';
+import { SocorristaGeneralComponent } from './componentes/compartidos/socorrista-general/socorrista-general.component';
+
 
 
 @NgModule({
@@ -20,13 +26,16 @@ import { EscogerPlayaComponent } from './componentes/compartidos/escoger-playa/e
     FooterComponent,
     LoginComponent,
     CoordinadorComponent,
-    EscogerPlayaComponent
+    EscogerPlayaComponent,
+    EncargadoGeneralComponent,
+    SocorristaGeneralComponent
+
   ],
   imports: [
     BrowserModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [SelectsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
