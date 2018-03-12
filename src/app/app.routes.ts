@@ -7,6 +7,7 @@ import { CoordinadorComponent } from './componentes/coordinador/coordinador.comp
 import { EscogerPlayaComponent } from './componentes/compartidos/escoger-playa/escoger-playa.component';
 import { EncargadoGeneralComponent } from './componentes/compartidos/encargado-general/encargado-general.component';
 import { SocorristaGeneralComponent } from './componentes/compartidos/socorrista-general/socorrista-general.component';
+import { EncargadoVistaComponent } from './componentes/compartidos/encargado-vista/encargado-vista.component';
 
 
 const APP_ROUTES: Routes = [
@@ -16,6 +17,7 @@ const APP_ROUTES: Routes = [
   { path: 'escogerPlaya', component: EscogerPlayaComponent },
   { path: 'encargadoGeneral', component: EncargadoGeneralComponent },
   { path: 'socorristaGeneral', component: SocorristaGeneralComponent },
+  { path: 'encargadoVista', component: EncargadoVistaComponent },
 
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];

@@ -16,6 +16,7 @@ import { CoordinadorComponent } from './componentes/coordinador/coordinador.comp
 import { EscogerPlayaComponent } from './componentes/compartidos/escoger-playa/escoger-playa.component';
 import { EncargadoGeneralComponent } from './componentes/compartidos/encargado-general/encargado-general.component';
 import { SocorristaGeneralComponent } from './componentes/compartidos/socorrista-general/socorrista-general.component';
+import { EncargadoVistaComponent } from './componentes/compartidos/encargado-vista/encargado-vista.component';
 
 
 
@@ -29,7 +30,8 @@ import { SocorristaGeneralComponent } from './componentes/compartidos/socorrista
     CoordinadorComponent,
     EscogerPlayaComponent,
     EncargadoGeneralComponent,
-    SocorristaGeneralComponent
+    SocorristaGeneralComponent,
+    EncargadoVistaComponent
 
   ],
   imports: [
