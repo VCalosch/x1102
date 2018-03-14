@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EncargadoGeneralComponent } from './encargado-general.component';
+import { SocorristaVistaComponent } from './socorrista-vista.component';
 
-describe('EncargadoGeneralComponent', () => {
-  let component: EncargadoGeneralComponent;
-  let fixture: ComponentFixture<EncargadoGeneralComponent>;
+describe('SocorristaVistaComponent', () => {
+  let component: SocorristaVistaComponent;
+  let fixture: ComponentFixture<SocorristaVistaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EncargadoGeneralComponent ]
+      declarations: [ SocorristaVistaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EncargadoGeneralComponent);
+    fixture = TestBed.createComponent(SocorristaVistaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

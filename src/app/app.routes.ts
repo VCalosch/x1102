@@ -3,21 +3,24 @@ import { HomeComponent } from './componentes/home/home.component';
 import { NavbarComponent } from './componentes/compartidos/navbar/navbar.component';
 import { FooterComponent } from './componentes/compartidos/footer/footer.component';
 import { LoginComponent } from './componentes/login/login.component';
-import { CoordinadorComponent } from './componentes/coordinador/coordinador.component';
-import { EscogerPlayaComponent } from './componentes/compartidos/escoger-playa/escoger-playa.component';
-import { EncargadoGeneralComponent } from './componentes/compartidos/encargado-general/encargado-general.component';
-import { SocorristaGeneralComponent } from './componentes/compartidos/socorrista-general/socorrista-general.component';
-import { EncargadoVistaComponent } from './componentes/compartidos/encargado-vista/encargado-vista.component';
+
+
+//Roles
+import { CoordinadorGenerealComponent } from './componentes/roles/coordinador/coordinador-genereal/coordinador-genereal.component';
+import { CoordinadorVistaComponent } from './componentes/Roles/Coordinador/coordinador-vista/coordinador-vista.component';
+import { EncargadoVistaComponent } from './componentes/Roles/Encargado/encargado-vista/encargado-vista.component';
+import { SocorristaVistaComponent } from './componentes/Roles/Socorrista/socorrista-vista/socorrista-vista.component';
 
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'coordinador', component: CoordinadorComponent },
-  { path: 'escogerPlaya', component: EscogerPlayaComponent },
-  { path: 'encargadoGeneral', component: EncargadoGeneralComponent },
-  { path: 'socorristaGeneral', component: SocorristaGeneralComponent },
+
+  //Roles
+  { path: 'coordinadorGenereal', component: CoordinadorGenerealComponent },
+  { path: 'coordinadorVista', component: CoordinadorVistaComponent },
   { path: 'encargadoVista', component: EncargadoVistaComponent },
+  { path: 'socorristaVista', component: SocorristaVistaComponent },
 
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
